@@ -1,0 +1,10 @@
+C:\Users\Kolya\source\repos\Kalculate\Kalculate\bin\Debug\Kalculate.exe.config
+C:\Users\Kolya\source\repos\Kalculate\Kalculate\bin\Debug\Kalculate.exe
+C:\Users\Kolya\source\repos\Kalculate\Kalculate\bin\Debug\Kalculate.pdb
+C:\Users\Kolya\source\repos\Kalculate\Kalculate\obj\Debug\Kalculate.csprojAssemblyReference.cache
+C:\Users\Kolya\source\repos\Kalculate\Kalculate\obj\Debug\Kalculate.Properties.Resources.resources
+C:\Users\Kolya\source\repos\Kalculate\Kalculate\obj\Debug\Kalculate.csproj.GenerateResource.cache
+C:\Users\Kolya\source\repos\Kalculate\Kalculate\obj\Debug\Kalculate.csproj.CoreCompileInputs.cache
+C:\Users\Kolya\source\repos\Kalculate\Kalculate\obj\Debug\Kalculate.exe
+C:\Users\Kolya\source\repos\Kalculate\Kalculate\obj\Debug\Kalculate.pdb
+C:\Users\Kolya\source\repos\Kalculate\Kalculate\obj\Debug\Kalculate.Form1.resources
