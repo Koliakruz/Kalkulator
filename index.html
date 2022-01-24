@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Abit-calc</title>
+</head>
+
+<body>
+  <h2>Розрахунок рейтингового балу вступника</h2>
+  <div class="container">
+      <div class="base">
+          <h3>Вкажіть дані</h3>
+          <form name="calc" action="">
+              <div class="form-control">
+                  <label for="domain">Виберіть галузь знань</label><br>
+                  <select name="domain" id="domain">
+                      <option value="2">2 Культура і мистецтво</option>
+                      <option value="3">3 Гуманітарні науки</option>
+                      <option value="5">5 Соціальні та поведінкові науки</option>
+                      <option value="7">7 Управління та адміністрування</option>
+                      <option value="10">10 Природничі науки</option>
+                      <option value="12">12 Інформаційні технології</option>
+                      <option value="13">13 Механічна інженерія</option>
+                      <option value="14">14 Електрична інженерія</option>
+                      <option value="15">15 Автоматизація та приладобудування</option>
+                      <option value="18">18 Виробництво та технології</option>
+                      <option value="19">19 Архітектура та будівництво</option>
+                      <option value="24">24 Сфера обслуговування</option>
+                      <option value="27">27 Транспорт</option>
+                      <option value="28">28 Публічне управління та адміністрування</option>
+                  </select>
+              </div>
+              <div class="form-control">
+                  <label for="nameCert1">Виберіть перший сертифікат</label><br>
+                  <select name="nameCert1" id="nameCert1">
+                      <option value="Українська мова">Українська мова</option>
+                      <option value="Українська мова і література">Українська мова і література</option>
+                  </select>
+              </div>
+              <div class="form-control">
+                  <label for="cert1">
+                      Вкажіть бал першого сертифікату
+                  </label>
+                  <input name="cert1" id="cert1" type="number" required="" min="100" max="200">
+              </div>
+              <div class="form-control">
+                  <label for="nameCert2">Виберіть другий сертифікат</label><br>
+                  <select name="nameCert2" id="nameCert2">
+                      <option value="Математика">Математика</option>
+                      <option value="Біологія">Біологія</option>
+                      <option value="Історія України">Історія України</option>
+                  </select>
+              </div>
+              <div class="form-control">
+                  <label for="cert2">
+                      Вкажіть бал другого сертифікату
+                  </label>
+                  <input name="cert2" id="cert2" type="number" required="" min="100" max="200">
+              </div>
+              <div class="form-control">
+                  <label for="nameCert3">Виберіть третій сертифікат</label><br>
+                  <select name="nameCert3" id="nameCert3">
+                      <option value="Біологія">Біологія</option>
+                      <option value="Математика">Математика</option>
+                      <option value="Історія України">Історія України</option>
+                      <option value="Іноземна мова">Іноземна мова</option>
+                      <option value="Географія">Географія</option>
+                      <option value="Фізика">Фізика</option>
+                      <option value="Хімія">Хімія</option>
+                  </select>
+              </div>
+              <div class="form-control">
+                  <label for="cert3">
+                      Вкажіть бал третього сертифікату
+                  </label>
+                  <input name="cert3" id="cert3" type="number" required="" min="100" max="200">
+              </div>
+              <div>
+                  <label for="atestat">
+                      Вкажіть середній бал атестату
+                  </label>
+                  <input name="atestat" id="atestat" type="number" required="" min="100" max="200">
+              </div>
+              <div>
+              <div class="form-control">
+                <label for="priorytet">
+                    Вкажіть пріоритет заяви
+                </label>
+                <input name="priorytet" id="priorytet" type="number" required="" min="1" max="5">
+              </div>
+            </div>
+              <div class="form-control">
+                  <label for="coef1">
+                      Регіональний коефіцієнт 1.02
+                  </label>
+                  <input name="coef1" id="coef1" type="checkbox" value="1.02">
+              </div>
+              <div class="form-control">
+                  <label for="coef2">
+                      Сільський коефіцієнт 1.05
+                  </label>
+                  <input name="coef2" id="coef2" type="checkbox" value="1.05">
+              </div>
+              <div class="form-control">
+                  <button id="btnCalc">Розрахувати</button>
+              </div>
+          </form>
+      </div>
+      <div class="result">
+          <h3>Рейтинговий бал</h3>
+          <div id="ratingBox"></div>
+      </div>
+      <div class="detail">
+          <h3>Статистика за минулі роки</h3>
+          <div id="detailBox"></div>
+      </div>
+  </div>
+  <script src="./main.js"></script>
+</body>
+</html>
